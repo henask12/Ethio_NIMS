@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountIsInactive" xml:space="preserve">
+    <value>Account is inactive</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ClientId" xml:space="preserve">
+    <value>Client Id</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Country Code</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>CountryName</value>
+  </data>
+  <data name="CurrentUserName" xml:space="preserve">
+    <value>Current Username</value>
+  </data>
+  <data name="DatabaseOperationFailed" xml:space="preserve">
+    <value>Database operation has failed, please try again</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="ErrorHasOccuredWhileProcessingYourRequest" xml:space="preserve">
+    <value>Error has occured while processing your request, please try again</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="InvalidClientCredential" xml:space="preserve">
+    <value>Invalid client credential, please try again.</value>
+  </data>
+  <data name="InvalidRefreshToken" xml:space="preserve">
+    <value>Invalid refresh token, please try to login again with your client id and secrate key</value>
+  </data>
+  <data name="IsDefaultWarehouse" xml:space="preserve">
+    <value>Is Default Warehouse?</value>
+  </data>
+  <data name="IsRecordProtectedForEdit" xml:space="preserve">
+    <value>Is record protected for edit?</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="OperationSucessfullyCompleted" xml:space="preserve">
+    <value>Operation sucessfully completed</value>
+  </data>
+  <data name="OperationSucessfullyCompletedNumberOfRecordAffected" xml:space="preserve">
+    <value>Operation sucessfully completed {0} number of record(s) affected</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PhoneNo" xml:space="preserve">
+    <value>Phone no.</value>
+  </data>
+  <data name="RecordAlreadyExist" xml:space="preserve">
+    <value>The same record already exist, please try again</value>
+  </data>
+  <data name="RecordCreatedBy" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="RecordCreatedDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="RecordDoesNotExist" xml:space="preserve">
+    <value>Record does not exist in the database</value>
+  </data>
+  <data name="RecordStatus" xml:space="preserve">
+    <value>Record status</value>
+  </data>
+  <data name="RecordSucessfullyCreated" xml:space="preserve">
+    <value>Record scuessfully created</value>
+  </data>
+  <data name="RecordSucessfullyUpdated" xml:space="preserve">
+    <value>Record sucessfully updated</value>
+  </data>
+  <data name="RecordUpdateDate" xml:space="preserve">
+    <value>Update date</value>
+  </data>
+  <data name="RecordUpdatedBy" xml:space="preserve">
+    <value>Updated by</value>
+  </data>
+  <data name="SecrateKey" xml:space="preserve">
+    <value>Secrate key</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="StartDateMustBeLessThanFromEndDate" xml:space="preserve">
+    <value>Start date must be less than from end date</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="SucessfullyLogedIn" xml:space="preserve">
+    <value>Sucessfully logged in</value>
+  </data>
+  <data name="UnableToLoginInvalidUserNameOrPassword" xml:space="preserve">
+    <value>Invalid credential, please try again</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UserSucessfullyLoggedIn" xml:space="preserve">
+    <value>You have sucessfully logged in</value>
+  </data>
+  <data name="ValidationFailed" xml:space="preserve">
+    <value>Input validation failed, please try again with valid input</value>
+  </data>
+  <data name="WarehouseName" xml:space="preserve">
+    <value>Warehouse name</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Zip code</value>
+  </data>
+  <data name="CurrencyCode" xml:space="preserve">
+    <value>Currency Code</value>
+  </data>
+  <data name="CurrencyFormat" xml:space="preserve">
+    <value>Currency Format</value>
+  </data>
+  <data name="CurrencyName" xml:space="preserve">
+    <value>Currency Name</value>
+  </data>
+  <data name="CurrencySymbol" xml:space="preserve">
+    <value>Currency Symbol</value>
+  </data>
+  <data name="EffectiveDate" xml:space="preserve">
+    <value>Effective Date</value>
+  </data>
+  <data name="ExchangeRate" xml:space="preserve">
+    <value>Exchange Rate</value>
+  </data>
+  <data name="IsBaseCurrency" xml:space="preserve">
+    <value>Is Base Currency</value>
+  </data>
+  <data name="PricePrecision" xml:space="preserve">
+    <value>Price Precision</value>
+  </data>
+  <data name="InvalidPasswordHasherCompatibilityMode" xml:space="preserve">
+    <value>InvalidPasswordHasherCompatibilityMode</value>
+  </data>
+  <data name="InvalidPasswordHasherIterationCount" xml:space="preserve">
+    <value>InvalidPasswordHasherIterationCount</value>
+  </data>
+  <data name="CountryPhoneCode" xml:space="preserve">
+    <value>CountryPhoneCode</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>description</value>
+  </data>
+  <data name="TitleName" xml:space="preserve">
+    <value>Title Name</value>
+  </data>
+  <data name="UnitOfMeasurementName" xml:space="preserve">
+    <value>UnitOfMeasurementName</value>
+  </data>
+  <data name="UpdatedBy" xml:space="preserve">
+    <value>Changed by</value>
+  </data>
+  <data name="LastUpdateDate" xml:space="preserve">
+    <value>Changed on</value>
+  </data>
+  <data name="CompanyAlreadyExist" xml:space="preserve">
+    <value>Company name already exist</value>
+  </data>
+  <data name="EmailAlreadyExist" xml:space="preserve">
+    <value>User email already exist</value>
+  </data>
+  <data name="EmailAlreadyConfirmed" xml:space="preserve">
+    <value>Email already confirmed</value>
+  </data>
+  <data name="InvalidConfirmationToken" xml:space="preserve">
+    <value>Invalid confirmation token</value>
+  </data>
+  <data name="YourEmailAddressIsSucessfullyConfirmed" xml:space="preserve">
+    <value>Your email address is sucessfully confirmed</value>
+  </data>
+  <data name="PleaseSelectOneRecordToUpdate" xml:space="preserve">
+    <value>Please select at least one record to update</value>
+  </data>
+  <data name="InvalidPasswordRecoveryToken" xml:space="preserve">
+    <value>Invalid password recovery token</value>
+  </data>
+  <data name="UserAccountDoesNotExist" xml:space="preserve">
+    <value>User account does not exist</value>
+  </data>
+  <data name="UserAccountIsLocked" xml:space="preserve">
+    <value>User account is locked</value>
+  </data>
+  <data name="InvalidUsernameOrPassword" xml:space="preserve">
+    <value>Invalid username or password</value>
+  </data>
+  <data name="BusinessErrorWhileProcessingYourRequest" xml:space="preserve">
+    <value>Business error occured while processing your request</value>
+  </data>
+  <data name="Address1" xml:space="preserve">
+    <value>Address1</value>
+  </data>
+  <data name="Address2" xml:space="preserve">
+    <value>Address2</value>
+  </data>
+  <data name="ModelError" xml:space="preserve">
+    <value>Model Error</value>
+  </data>
+  <data name="FileUploadError" xml:space="preserve">
+    <value>File Upload Error</value>
+  </data>
+  <data name="RequestCouldntBeProcessed" xml:space="preserve">
+    <value>The request couldn't be processed</value>
+  </data>
+  <data name="OperationEndWithError" xml:space="preserve">
+    <value>operation ended with errors</value>
+  </data>
+  <data name="InternalServerError" xml:space="preserve">
+    <value>Internal Server Error from the custom Exception.</value>
+  </data>
+  <data name="UnautorizedAccess" xml:space="preserve">
+    <value>Unautorized access</value>
+  </data>
+  <data name="SubscriptionInfoDoesNotExist" xml:space="preserve">
+    <value>Account subscription information does not exist</value>
+  </data>
+  <data name="PasswordSucessfullyChanged" xml:space="preserve">
+    <value>Your password has been changed successfully.</value>
+  </data>
+  <data name="UserAlreadyLoggedOut" xml:space="preserve">
+    <value>User already logged out</value>
+  </data>
+  <data name="AtleastSelectOnePrivilage" xml:space="preserve">
+    <value>Atleast select one privilage</value>
+  </data>
+  <data name="PleaseSelectAtLeastOneRole" xml:space="preserve">
+    <value>Please select at least one role</value>
+  </data>
+  <data name="BadRequest" xml:space="preserve">
+    <value>Bad Request</value>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>Anauthorized access</value>
+  </data>
+  <data name="UserIsAuthorized" xml:space="preserve">
+    <value>Authorized user</value>
+  </data>
+  <data name="InvalidUserCredential" xml:space="preserve">
+    <value>Invalid user login crednetial</value>
+  </data>
+  <data name="DefaultWarehouseIsNotCreated" xml:space="preserve">
+    <value>Default warehouse is not created for the current organization</value>
+  </data>
+  <data name="ItemAlreadyExist" xml:space="preserve">
+    <value>Item already exist</value>
+  </data>
+  <data name="ItemDoesNotExist" xml:space="preserve">
+    <value>Item does not exist</value>
+  </data>
+  <data name="ItemSucessfullyCreated" xml:space="preserve">
+    <value>Item sucessfully created</value>
+  </data>
+  <data name="SKUAlreadyExist" xml:space="preserve">
+    <value>SKU Number alrady exist</value>
+  </data>
+  <data name="AtleastOneItemMustExistInAgroup" xml:space="preserve">
+    <value>Atleast one item must exist in a group</value>
+  </data>
+  <data name="ItemAttributeOptionDoesNotExist" xml:space="preserve">
+    <value>Item attribute option does not exist {0}</value>
+  </data>
+  <data name="ItemGroupAlreadyExist" xml:space="preserve">
+    <value>Item group already exist</value>
+  </data>
+  <data name="ItemGroupDoesNotExist" xml:space="preserve">
+    <value>Item group does not exist</value>
+  </data>
+  <data name="ItemGroupSucessfullyCreated" xml:space="preserve">
+    <value>Item group sucessfully created</value>
+  </data>
+  <data name="ItemNameMustBeUnique" xml:space="preserve">
+    <value>Item name {0} must be unique</value>
+  </data>
+  <data name="ItemWithTheSameNameAlreadyExist" xml:space="preserve">
+    <value>Item with same name {0} already exist</value>
+  </data>
+  <data name="SKUMustBeUnique" xml:space="preserve">
+    <value>SKU {0} must be unique</value>
+  </data>
+  <data name="TheSameSKUAlreadyExist" xml:space="preserve">
+    <value>The same SKU {0} already exist</value>
+  </data>
+  <data name="ItemDoesNotBelongToTheCurrentGroup" xml:space="preserve">
+    <value>Item {0} does not belong to the current group {1}</value>
+  </data>
+  <data name="ItemWithNameDoesNotExist" xml:space="preserve">
+    <value>Item with name {0} does not exist</value>
+  </data>
+  <data name="AtleastAddTwoLineItem" xml:space="preserve">
+    <value>Atleast you must add two item item to the composit line item</value>
+  </data>
+  <data name="CompositItemAlreadyExist" xml:space="preserve">
+    <value>Composit item name already exist</value>
+  </data>
+  <data name="AtleastOneItemMustBeGoodType" xml:space="preserve">
+    <value>Atleast one Good item must be included in the composit item</value>
+  </data>
+  <data name="ItemWithIdDoesNotExist" xml:space="preserve">
+    <value>Item id {0} does not exist</value>
+  </data>
+  <data name="OnlyOneServiceTypeCanBeAddedInToCompositItem" xml:space="preserve">
+    <value>Only one service type can be added in to a composit item</value>
+  </data>
+  <data name="ThisItemCanNotBeUsedForCreatingCompositItem" xml:space="preserve">
+    <value>this item type can not be used for creating composit item</value>
+  </data>
+  <data name="PleaseSelectOneRecordToDelete" xml:space="preserve">
+    <value>Please select one record to Delete</value>
+  </data>
+  <data name="BundlingIsAllowedOnlyForCompositItem" xml:space="preserve">
+    <value>Bundling is allowed for composit item only</value>
+  </data>
+  <data name="CompositItemDoesNotExist" xml:space="preserve">
+    <value>Composit item does not exist</value>
+  </data>
+  <data name="YouDoNotHaveEnoughStockOnHandForBundlingItem" xml:space="preserve">
+    <value>You don't have enough stock in hand for bundling item {0} Please re-stock and try again.</value>
+  </data>
+  <data name="PleaseCheckStockBalanceForBatch" xml:space="preserve">
+    <value>Please check stock balance for item with batch {0}</value>
+  </data>
+  <data name="PleaseCheckStockBalanceForSerialNumber" xml:space="preserve">
+    <value>Please check stock balance for item with serial number {0}</value>
+  </data>
+  <data name="ItemHasSucessfullyDeleted" xml:space="preserve">
+    <value>Item has sucessfully deledted</value>
+  </data>
+  <data name="ItemGroupHasSucessfullyDeleted" xml:space="preserve">
+    <value>Item group has sucessfully deleted</value>
+  </data>
+  <data name="BundleAlreadyDeleted" xml:space="preserve">
+    <value>Bundle already deleted</value>
+  </data>
+  <data name="BundleInfoDoesNotExist" xml:space="preserve">
+    <value>Bundle information does not exist</value>
+  </data>
+  <data name="YouCanNotDeleteBundleWithBatchSerialNumberIsEnabledForWhichTransactionIsMade" xml:space="preserve">
+    <value>You can't delete bundle for which transaction is already made for composit item with serial/batch number tracking</value>
+  </data>
+  <data name="ConfirmationEmailSendMessage" xml:space="preserve">
+    <value>Confirmation Email Send Successfully</value>
+  </data>
+  <data name="InviteEmailSendMessage" xml:space="preserve">
+    <value>Invitation Email Send Succesfully</value>
+  </data>
+  <data name="UserAlreadyActiveMessage" xml:space="preserve">
+    <value>User is Already Active</value>
+  </data>
+  <data name="UserIsDeletedMessage" xml:space="preserve">
+    <value>User Is Deleted</value>
+  </data>
+  <data name="UserIsInActiveAlreadyMessge" xml:space="preserve">
+    <value>User is already InActive</value>
+  </data>
+  <data name="RoleCantBeEditedOrDeleted" xml:space="preserve">
+    <value>Sorry, predefined roles cannot be edited or deleted. Clone the role instead.</value>
+  </data>
+  <data name="RoleDeleteNotAllowedMessage" xml:space="preserve">
+    <value>Sorry, you could not delete this role as it is assigned to user.</value>
+  </data>
+  <data name="RoleDoesntExist" xml:space="preserve">
+    <value>Role Does not Exist in the system</value>
+  </data>
+  <data name="NoRoleOrganizationCorrelationSelected" xml:space="preserve">
+    <value>No Role Organization Correlation Selected</value>
+  </data>
+  <data name="NoWarehouseRoleCorrelationSelected" xml:space="preserve">
+    <value>NoWarehouseRoleCorrelationSelected</value>
+  </data>
+  <data name="NoOrganizationFoundWithThisSearch" xml:space="preserve">
+    <value>No Organization found with this search</value>
+  </data>
+  <data name="NoWarehouseFoundWithThisSearch" xml:space="preserve">
+    <value>No Warehouse found with this search</value>
+  </data>
+  <data name="RoleNotSelected" xml:space="preserve">
+    <value>Role Not Selected</value>
+  </data>
+  <data name="UserCantLogin" xml:space="preserve">
+    <value>User Can't Login</value>
+  </data>
+  <data name="UserAccountAlreadyExist" xml:space="preserve">
+    <value>User Account Already Exist!!</value>
+  </data>
+  <data name="DefaultOrganizationNotCreated" xml:space="preserve">
+    <value>Default Organization Not Created</value>
+  </data>
+  <data name="UserNotLoggedIn" xml:space="preserve">
+    <value>User Not Logged In</value>
+  </data>
+  <data name="SubscriptionNotFound" xml:space="preserve">
+    <value>SubscriptionNotFound</value>
+  </data>
+  <data name="UserCantBeActivated" xml:space="preserve">
+    <value>User Can not Be Activated!!</value>
+  </data>
+  <data name="TransactionIsNotOnTheSameSubscription" xml:space="preserve">
+    <value>Transaction Is Not On The Same Subscription</value>
+  </data>
+  <data name="PrimaryCantBeDeleted" xml:space="preserve">
+    <value>Primary Can not Be Deleted!!</value>
+  </data>
+  <data name="AllowedOnlyForSelfUpdate" xml:space="preserve">
+    <value>AllowedOnlyForSelfUpdate</value>
+  </data>
+  <data name="CantUpdateOrDeletePreDefinedUser" xml:space="preserve">
+    <value>Can not Update Or Delete Pre Defined User!</value>
+  </data>
+  <data name="CantUpdateOwnStatusOrRole" xml:space="preserve">
+    <value>You cannot change your own status or role.</value>
+  </data>
+  <data name="NotAllowed" xml:space="preserve">
+    <value>Not Allowed!!</value>
+  </data>
+  <data name="AlreadyActiveRecord" xml:space="preserve">
+    <value>Already Active!</value>
+  </data>
+  <data name="AlreadyInActiveRecord" xml:space="preserve">
+    <value>Already In-Active!!</value>
+  </data>
+  <data name="PrimaryCantBeInActive" xml:space="preserve">
+    <value>Primary Cannot be In-Active</value>
+  </data>
+  <data name="FoundTaxThatDoesntExistOrInvalid" xml:space="preserve">
+    <value>Found Tax That Doesnt Exist Or Invalid</value>
+  </data>
+  <data name="Youcannothavemorethanonecompoundtaxinataxgroup" xml:space="preserve">
+    <value>You cannot have more than one compound tax in a tax group</value>
+  </data>
+  <data name="ThistaxisassociatedwiththetaxgroupHenceitcannotbedeleted" xml:space="preserve">
+    <value>This tax is associated with the tax group(s). Hence, it cannot be deleted.</value>
+  </data>
+  <data name="NotAllowedItIsAGroupTax" xml:space="preserve">
+    <value>Not Allowed It Is A GroupTax!!</value>
+  </data>
+  <data name="NotAllowedItIsNotAGroupTax" xml:space="preserve">
+    <value>Not Allowed It Is Not A Group Tax</value>
+  </data>
+  <data name="PrimaryContactCantBeFound" xml:space="preserve">
+    <value>Primary Contact Can not Be Found!!</value>
+  </data>
+  <data name="PleaseSelectValidCurrency" xml:space="preserve">
+    <value>Please Select Valid Currency</value>
+  </data>
+  <data name="CurrencyNotFound" xml:space="preserve">
+    <value>Currency Not Found!!</value>
+  </data>
+  <data name="SameDateExchangeRateIsAlreadyExistYouCanEdit" xml:space="preserve">
+    <value>Same Date Exchange Rate Is Already Exist You Can Edit Instead!</value>
+  </data>
+  <data name="SameDateExchangeRateIsAlreadyExistYouCanEditAdd" xml:space="preserve">
+    <value>Same Date Exchange Rate Is Already Exist You Can Add Instead!!</value>
+  </data>
+  <data name="TransationAlreadyExist" xml:space="preserve">
+    <value>TransationAlreadyExist</value>
+  </data>
+  <data name="InvalidItemTransactionId" xml:space="preserve">
+    <value>Invalid Item Transaction</value>
+  </data>
+  <data name="CanNotAddSameFromToSector" xml:space="preserve">
+    <value>You can not add same from and to sector</value>
+  </data>
+  <data name="CanNotUpdateOwnStatusOrRole" xml:space="preserve">
+    <value>You can not update your own status or role</value>
+  </data>
+  <data name="SelectClient" xml:space="preserve">
+    <value>Please Select Client</value>
+  </data>
+  <data name="RemarkIsMandatory" xml:space="preserve">
+    <value>Remark Is Mandatory</value>
+  </data>
+</root>

@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>ENIMS.Common</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="RequestModel\MasterData\Provisio\**" />
+    <Compile Remove="RequestModel\MasterData\SPA\**" />
+    <Compile Remove="ResponseModel\MasterData\Provisio\**" />
+    <Compile Remove="ResponseModel\MasterData\SPA\**" />
+    <Compile Remove="Utility\**" />
+    <EmbeddedResource Remove="RequestModel\MasterData\Provisio\**" />
+    <EmbeddedResource Remove="RequestModel\MasterData\SPA\**" />
+    <EmbeddedResource Remove="ResponseModel\MasterData\Provisio\**" />
+    <EmbeddedResource Remove="ResponseModel\MasterData\SPA\**" />
+    <EmbeddedResource Remove="Utility\**" />
+    <None Remove="RequestModel\MasterData\Provisio\**" />
+    <None Remove="RequestModel\MasterData\SPA\**" />
+    <None Remove="ResponseModel\MasterData\Provisio\**" />
+    <None Remove="ResponseModel\MasterData\SPA\**" />
+    <None Remove="Utility\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Localization\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Localization\Resources.resx">
+      <CustomToolNamespace>ENIMS.Common</CustomToolNamespace>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.20.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="NLog" Version="4.6.7" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.601" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+  </ItemGroup>
+
+</Project>
